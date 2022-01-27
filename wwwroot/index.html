@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <link rel="icon" href="favicon.svg" />
+    <link rel="apple-touch-icon" sizes="192x192" href="images/hello-icon-192-apple-touch.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+</head>
+<body class="fullscreen">
+    <div class="container">
+        <h1 class="title">Hello World asdf!</h1>
+    </div>
+
+    <a href="pageone.html">Page One</a>
+
+    <script src="js/main.js"></script>
+    <script>
+        // app-based solution
+        let refreshing = false;
+
+        // detect controller change and refresh the page
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+            if (!refreshing) {
+                alert("We need to refresh");
+                window.location.reload();
+                refreshing = true;
+            }
+        })
+    </script>
+</body>
+</html>

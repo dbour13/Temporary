@@ -1,0 +1,23 @@
+{
+  "name": "Hello World",
+  "short_name": "Hello",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],    
+  "lang": "en-AU",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}

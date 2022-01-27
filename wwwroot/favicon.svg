@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" fill="transparent" height="512" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="cut-out-circle">
+      <circle cx="8" cy="8" r="6"/>
+    </clipPath>
+  </defs>
+
+  <svg viewBox="0 0 16 16">
+    <circle fill="#FFFFFF" color="#E61231" cx="8" cy="8" r="6"/>
+  </svg>
+
+  <svg viewBox="0 0 16 16" clip-path="url(#cut-out-circle)" fill="darkgray">
+    <svg viewBox="-1 -3.5 21 21">
+      <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+    </svg>
+
+    <rect x="0" y="12.5" width="9.9" height="1"></rect>
+  </svg>
+  <!--
+  <svg viewBox="-2 -2 20 20" fill="#E61231">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+  </svg>
+  -->
+  <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <circle stroke="#E61231" fill="transparent" stroke-width="1" cx="8" cy="8" r="6"/>
+  </svg>
+</svg>
+
